@@ -157,29 +157,5 @@
 
 ---
 
-## 📊 Хураангуй
 
-| Блок | Даалгаврын тоо | Хариуцагч |
-|------|---------------|-----------|
-| Суурь бүтэц | 3 | Dev |
-| Үүрэг систем | 2 | Dev |
-| Workspace (Super Admin) | 5 | Dev |
-| Task (Admin) | 3 | Dev |
-| Статус (Employee) | 1 | Dev |
-| Visibility шүүлтүүр | 3 | Dev |
-| Frontend | 5 | Dev |
-| Тест & Deploy | 3 | Dev |
-| **Нийт** | **25** | |
 
----
-
-## 🚀 Санал болгох эхлэх дараалал
-
-1. **TASK-001, 002, 003** — Суурь бүтэц, DB схем, Auth
-2. **TASK-004, 005** — RBAC middleware
-3. **TASK-006 → 010** — Workspace CRUD (Super Admin)
-4. **TASK-011 → 013** — Task CRUD (Admin)
-5. **TASK-014** — Статус өөрчлөх (Employee)
-6. **TASK-015 → 017** — Visibility шүүлтүүр
-7. **TASK-018 → 022** — Frontend
-8. **TASK-023 → 025** — Тест & Deploy
