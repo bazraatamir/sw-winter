@@ -1,0 +1,24 @@
+services:
+  # --- 1-р орчин: Node 16 ---
+  app-node16:
+    image: node:16-alpine
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: node src/version-server.js
+    environment:
+      PORT: 3000
+    ports:
+      - "3016:3000"     # компьютер дээр 3016 → container дотор 3000
+
+  # --- 2-р орчин: Node 24 ---
+  app-node24:
+    image: node:24-alpine
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: node src/version-server.js
+    environment:
+      PORT: 3000
+    ports:
+      - "3024:3000"     # компьютер дээр 3024 → container дотор 3000
